@@ -1,5 +1,6 @@
 module "group" {
-  source = "./modules/group"
+  source  = "c0x12c/google-workspace-group/gcp"
+  version = "~> 1.0.0"
 
   for_each = var.groups
 
