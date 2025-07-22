@@ -8,6 +8,3 @@ terraform {
     }
   }
 }
-provider "googleworkspace" {
-  customer_id = 1
-}
